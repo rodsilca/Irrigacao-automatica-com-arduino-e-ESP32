@@ -6,11 +6,17 @@ O protótipo utiliza um Arduino Uno como controlador principal, conectado a sens
 
 # Componentes Utilizados
 • Arduino Uno: Controla sensores e relé para ativar a bomba de água.
+
 • ESP32: Gerencia a comunicação web e exibe os dados via um servidor HTTP.
+
 • Sensor de Umidade do Solo: Monitora a umidade do solo e envia leituras para o Arduino pela porta analógica.
+
 • Sensor DHT11: Mede temperatura e umidade do ambiente.
+
 • Relé de 1 Canal: Controla o acionamento da bomba de água.
+
 • Bomba de Água: Irriga o solo quando os níveis de umidade estão abaixo do limiar definido.
+
 • Fontes de Alimentação: Alimentam o Arduino, ESP32 e a bomba.
 
 # Funcionamento do Sistema
