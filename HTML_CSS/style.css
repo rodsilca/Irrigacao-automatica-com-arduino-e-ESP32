@@ -1,0 +1,42 @@
+   
+        :root{
+            --cor0: #ebe5c5;
+            --cor1: #038548;
+            --cor2: #063d1e;
+        }
+        *{
+            margin: 0px;
+            padding: 0px;
+            font-family: 'Poppins', sans-serif;
+        }
+        body{
+            background-color: var(--cor0);
+        }
+        #temp{
+            color: red;
+        }
+        #umi{
+            color: #00add6;
+        }
+        header{
+            background-color: var(--cor1);
+            text-align:left;
+            display: flex;
+        }
+        header > h1{
+            color: white;
+            padding: 10px 0px 10px 10px;
+            font-weight: normal;
+            font-size: 2em;
+            text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.178);
+        }
+        main{background-color: white;text-align: center;min-width: 320px;max-width: 600px;margin: auto;padding: 20px;box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.425);border-bottom-left-radius: 10px;border-bottom-right-radius: 10px;font-weight:bolder;}
+        main h1{
+            color: var(--cor2);
+            font-size: 1.4em;
+        }
+        main p{
+            margin: 15px 0px 15px 0px;
+            font-size: 2em;
+            line-height: 2em; 
+        }
